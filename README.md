@@ -1,4 +1,4 @@
-# AI Builder Toolkit
+# Shopware 6 Architecture & Theming
 
 ![Toolkit](images/teaser.svg)
 
