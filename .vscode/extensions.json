@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "Meezilla.json",
+    "streetsidesoftware.code-spell-checker",
+    "vivaxy.vscode-conventional-commits"
+  ]
+}

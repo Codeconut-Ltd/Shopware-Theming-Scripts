@@ -1,0 +1,41 @@
+{
+    "name": "ccn/administration",
+    "description": "CCN: Customized admin panel modules",
+    "version": "1.0.9",
+    "require": {
+        "php": ">= 8.2",
+        "shopware/core": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CcnAdministration\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "CcnAdministration\\CcnAdministration",
+        "label": {
+            "de-DE": "CCN: Shopware Administration – Anpassungen",
+            "en-GB": "CCN: Shopware administration – Customization"
+        },
+        "description": {
+            "de-DE": "Angepasste Admin-Panel Module.",
+            "en-GB": "Customized admin panel modules."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://codeconutltd.com",
+            "en-GB": "https://codeconutltd.com"
+        },
+        "supportLink": {
+            "de-DE": "https://codeconutltd.com",
+            "en-GB": "https://codeconutltd.com"
+        },
+        "copyright": "(c) by Codeconut"
+    },
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Codeconut"
+        }
+    ]
+}

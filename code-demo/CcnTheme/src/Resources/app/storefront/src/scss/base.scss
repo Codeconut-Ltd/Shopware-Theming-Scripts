@@ -1,0 +1,12 @@
+/**
+ * ITCSS-inspired architecture.
+ *
+ * Shopware's 7-1 structure is a part of it and followed through;
+ * though intended to be expanded depending on the scale of application.
+ */
+
+@import "1-settings/…";
+
+// …
+
+@import "8-trumps/…";

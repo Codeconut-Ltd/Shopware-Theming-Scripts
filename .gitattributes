@@ -1,0 +1,12 @@
+## AUTO-DETECT
+* text=auto
+
+## DOCUMENTATION
+*.markdown text
+*.md       text
+
+## CONFIGS
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+.gitignore     text

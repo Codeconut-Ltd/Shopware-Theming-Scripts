@@ -1,0 +1,9 @@
+{
+  "name": "ccn-theme",
+  "description": "Theme – Codeconut",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "gsap": "^3.15.0"
+  }
+}

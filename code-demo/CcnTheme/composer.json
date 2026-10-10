@@ -1,0 +1,42 @@
+{
+    "name": "ccn/ccn-theme",
+    "description": "CCN: Theme – Codeconut",
+    "version": "1.0.3",
+    "require": {
+        "php": ">= 8.2",
+        "shopware/core": "^6.6",
+        "swag/cms-extensions": "~4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "CcnTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "CcnTheme\\CcnTheme",
+        "label": {
+            "de-DE": "CCN: Theme – Codeconut",
+            "en-GB": "CCN: Theme – Codeconut"
+        },
+        "description": {
+            "de-DE": "Marken- und Sales-Channel Theme.",
+            "en-GB": "Brand and sales channel theme."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://codeconutltd.com",
+            "en-GB": "https://codeconutltd.com"
+        },
+        "supportLink": {
+            "de-DE": "https://codeconutltd.com",
+            "en-GB": "https://codeconutltd.com"
+        },
+        "copyright": "(c) by Codeconut"
+    },
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Codeconut"
+        }
+    ]
+}

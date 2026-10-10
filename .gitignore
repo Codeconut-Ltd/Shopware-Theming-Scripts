@@ -1,0 +1,8 @@
+# .vscode: Kept intentionally
+
+# AI
+.agents
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+{#
+Non-standard approach to decouple code and avoid TWIG duplication.
+Consider if applying these is the right approach for your project.
+#}
+
+{% macro renderMedia(media) %}
+
+    {% set isVideo = media.mimeType starts with 'video' %}
+
+    {% if isVideo %}
+        {% sw_include "partials/video.html.twig" with {
+            media: media
+        } %}
+    {% else %}
+        {% sw_include "partials/image.html.twig" with {
+            media: media
+        } %}
+    {% endif %}
+
+{% endmacro %}

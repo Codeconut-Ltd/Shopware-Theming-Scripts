@@ -1,0 +1,106 @@
+{
+    "name": "Ccntheme",
+    "author": "Codeconut",
+    "previewMedia": "config/plugin-preview.png",
+    "views": [
+        "@Storefront",
+        "@Plugins",
+        "@CcnTheme"
+    ],
+    "style": [
+        "app/storefront/src/scss/overrides.scss",
+        "@StorefrontBootstrap",
+        "@Plugins",
+        {
+            "app/storefront/src/scss/base.scss": {
+                "resolve": {
+                    "ccn": "app/storefront/env/default"
+                }
+            }
+        }
+    ],
+    "script": [
+        "@Storefront",
+        "app/storefront/dist/storefront/js/ccn-theme/ccn-theme.js"
+    ],
+    "asset": [
+        "@Storefront",
+        "app/storefront/src/assets"
+    ],
+    "iconSets": {
+        "ccn": "public"
+    },
+    "configInheritance": [
+        "@Storefront"
+    ],
+    "config": {
+        "tabs": {
+            "colors": {
+                "Custom": {
+                    "en-GB": "CUSTOM"
+                }
+            }
+        },
+        "blocks": {
+            "Content": {
+                "label": {
+                    "en-GB": "Content"
+                }
+            },
+            "Developers": {
+                "label": {
+                    "en-GB": "Developers"
+                }
+            }
+        },
+        "sections": {
+            "Content": {
+                "label": {
+                    "en-GB": "Content"
+                }
+            },
+            "Developers": {
+                "label": {
+                    "en-GB": "Breakpoints"
+                }
+            }
+        },
+        "fields": {
+            "component-slider-speed": {
+                "label": {
+                    "en-GB": "Slider speed"
+                },
+                "helpText": {
+                    "en-GB": "Time in MS for slide animations."
+                },
+                "type": "number",
+                "value": 500,
+                "order": 1,
+                "editable": true,
+                "scss": false,
+                "fullWidth": false,
+                "tab": "Custom",
+                "block": "Content",
+                "section": "Content"
+            },
+
+            "breakpoint-xxxl": {
+                "label": {
+                    "en-GB": "Breakpoint XXXL"
+                },
+                "helpText": {
+                    "en-GB": "Bootstrap enhancing breakpoint for SCSS."
+                },
+                "type": "number",
+                "value": 1600,
+                "order": 1,
+                "editable": true,
+                "scss": true,
+                "fullWidth": false,
+                "tab": "Custom",
+                "block": "Developers",
+                "section": "Developers"
+            }
+        }
+    }
+}

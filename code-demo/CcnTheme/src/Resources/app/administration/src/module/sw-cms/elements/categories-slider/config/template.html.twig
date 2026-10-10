@@ -1,0 +1,20 @@
+<!--suppress CheckEmptyScriptTag, XmlUnboundNsPrefix -->
+{% block sw_cms_el_config_categories_slider %}
+    <sw-tabs class="sw-cms-el-config-categories-slider" defaultItem="content">
+
+        <template #default="{ active }">
+            {% block tab_content %}
+                <sw-tabs-item ...>
+                </sw-tabs-item>
+            {% endblock %}
+        </template>
+
+        <template #content="{ active }">
+            <sw-container v-if="active === 'content'">
+                <sw-switch-field ...>
+                </sw-switch-field>
+            </sw-container>
+        </template>
+
+    </sw-tabs>
+{% endblock %}

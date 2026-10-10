@@ -1,0 +1,14 @@
+{
+    "sw-cms": {
+        "blocks": {
+            "sidebarCategory": {
+                "option": "Codeconut"
+            }
+        },
+        "elements": {
+            "categoriesSlider": {
+                "config": {
+                }
+            }
+    }
+}
